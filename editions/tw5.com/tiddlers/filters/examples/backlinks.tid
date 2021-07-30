@@ -4,6 +4,6 @@ tags: [[backlinks Operator]] [[Operator Examples]]
 title: backlinks Operator (Examples)
 type: text/vnd.tiddlywiki
 
-<<.operator-example 1 "[[HelloThere]backlinks[]]">>
-<<.operator-example 2 "[tag[TableOfContents]backlinks[]]" "tiddlers that link to tiddlers tagged [[TableOfContents]]">>
-<<.operator-example 3 "[all[current]backlinks[]]" "tiddlers that link to this one">>
+<<.operator-example 1 "<<list-links filter:"[[HelloThere]backlinks[]]">>" >>  
+<<.operator-example 2 "<<list-links filter:"[tag[TableOfContents]backlinks[]]">>" "tiddlers that link to tiddlers tagged [[TableOfContents]]">>  
+<<.operator-example 3 "<<list-links filter:"[all[current]backlinks[]]">>" "tiddlers that link to this one">>  
